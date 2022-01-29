@@ -11,7 +11,7 @@ const EmojiRow = ({title, symbol}: IProps) => {
       <span>{symbol}</span>
       <span>{title}</span>
     </div>
-  );
-};
+  )
+}
 
-export default EmojiRow;
+export default EmojiRow

@@ -10,7 +10,7 @@ const Form = ({searchEmoji, emojiTitle}: IProps) => {
     <div className={cls.input}>
       <input className={cls.input} value={emojiTitle} onChange={(e) => searchEmoji(e.target.value)}/>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form
