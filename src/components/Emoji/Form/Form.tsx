@@ -2,13 +2,13 @@ import cls from './Form.module.css'
 
 interface IProps {
   searchEmoji: (text: string) => void;
-  emojiTitle: string;
+  searchText: string;
 }
 
-const Form = ({searchEmoji, emojiTitle}: IProps) => {
+const Form = ({searchEmoji, searchText}: IProps) => {
   return (
     <div className={cls.input}>
-      <input className={cls.input} value={emojiTitle} onChange={(e) => searchEmoji(e.target.value)}/>
+      <input className={cls.input} value={searchText} onChange={(e) => searchEmoji(e.target.value)}/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import './App.css'
-import EmojiContainer from './components/EmojiContainer/EmojiContainer'
+import EmojiContainer from './components/Emoji/EmojiContainer/EmojiContainer'
 
 function App() {
   return (
